@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="250.0" prefWidth="322.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ejercicio1_5.PrimaryController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="282.0">
+         <children>
+            <Label fx:id="lbl" layoutX="-9.0" layoutY="-8.0" text="Control de Gastos Semanales" />
+            <Label fx:id="lbl2" layoutY="32.0" text="Alimentacion" />
+            <Label fx:id="lbl3" layoutX="-1.0" layoutY="61.0" text="Refigerios" />
+            <Label fx:id="lbl3" layoutX="-1.0" layoutY="92.0" text="Transporte" />
+            <Label fx:id="lbl4" layoutX="1.0" layoutY="121.0" text="Telefonia" />
+            <Label fx:id="lbl5" layoutX="-1.0" layoutY="149.0" text="Otros" />
+            <Button fx:id="btn" layoutX="-5.0" layoutY="187.0" onAction="#btn_calcular" text="Calcular estadisticas" />
+            <Button fx:id="btn2" layoutX="119.0" layoutY="187.0" onAction="#btn_limpiar" text="Limpiar" />
+            <TextField fx:id="txt" layoutX="78.0" layoutY="28.0" prefHeight="25.0" prefWidth="69.0" />
+            <TextField fx:id="txt2" layoutX="78.0" layoutY="57.0" prefHeight="25.0" prefWidth="69.0" />
+            <TextField fx:id="txt3" layoutX="78.0" layoutY="88.0" prefHeight="25.0" prefWidth="69.0" />
+            <TextField fx:id="txt4" layoutX="78.0" layoutY="117.0" prefHeight="25.0" prefWidth="69.0" />
+            <TextField fx:id="txt5" layoutX="78.0" layoutY="145.0" prefHeight="25.0" prefWidth="69.0" />
+            <Label fx:id="lbl8" layoutX="198.0" layoutY="121.0" text="Gasto mas alto" />
+            <TextField fx:id="txt7" layoutX="203.0" layoutY="145.0" prefHeight="25.0" prefWidth="69.0" />
+            <TextField fx:id="txt6" layoutX="203.0" layoutY="88.0" prefHeight="25.0" prefWidth="69.0" />
+            <Label fx:id="lbl7" layoutX="198.0" layoutY="53.0" text="Total semanal" />
+            <Label fx:id="lbl6" layoutX="204.0" layoutY="24.0" text="Estadisticas" />
+         </children>
+      </Pane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
