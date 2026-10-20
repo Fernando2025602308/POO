@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ejercicio3_2.PrimaryController">
+   <children>
+      <Label fx:id="lbl" text="La Liebre y la Tortuga" />
+      <Button fx:id="btn" onAction="#btn_carrera" text="¡Iniciar Carerra!" />
+      <Label fx:id="lbl1" layoutX="30.0" layoutY="30.0" text="La Liebre:  " />
+      <ProgressBar fx:id="liebre" prefWidth="200.0" progress="0.0" />
+      <Label fx:id="lbll2" layoutX="102.0" layoutY="112.0" text="La Toruga:" />
+      <ProgressBar fx:id="tortuga" prefWidth="200.0" progress="0.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
